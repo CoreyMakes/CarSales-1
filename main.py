@@ -1,3 +1,8 @@
+def Models():
+    print("What kind of car are you looking for? ")
+    Type = input()
+    print("Let's take a look at some models that match your " + Type)
+    
 
 
 class Car:
