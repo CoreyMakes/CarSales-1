@@ -1,5 +1,4 @@
-Models():
-    print("")
+
 
 class Car:
      def __init__(self, year, make, model):
