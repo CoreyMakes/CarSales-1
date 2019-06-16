@@ -22,10 +22,6 @@ if answer == "no":
 YesNo = input()
 if YesNo == "no":
 	Models()  
-else:
-if YesNo == "yes":
-	Models()
     
-    
-if answer == "no":
+if YesNo == "no":
     print("That's too bad. We would love to help you.")
