@@ -1,3 +1,4 @@
+
 def Models():
     print("What kind of car are you looking for? ")
     Type = input()
@@ -25,3 +26,7 @@ if YesNo == "yes":
     
 if YesNo == "no":
     print("That's too bad. We would love to help you.")
+
+if answer == "yes": 
+    print("I am happy to hear that. When you decide you want to shop for a new car keep us in mind.")
+ 
