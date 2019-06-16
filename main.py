@@ -20,7 +20,15 @@ answer = input()
 if answer == "no":
     print("It might be time for a new one. Would you like to look at some new models?")
 YesNo = input()
+<<<<<<< HEAD
 if YesNo == "no":
 	Models()  
 else:
+=======
+if YesNo == "yes":
+	Models()
+    
+    
+if answer == "yes":
+>>>>>>> a1535906531639b04d638d8c804e9fe88613ca5d
     print("That's too bad. We would love to help you.")
