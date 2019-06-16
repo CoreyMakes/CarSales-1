@@ -1,7 +1,7 @@
 def Models():
     print("What kind of car are you looking for? ")
     Type = input()
-    print("Let's take a look at some models that match your " + Type)
+    print("Let's take a look at some models that match  " + Type)
     
 
 
@@ -20,9 +20,7 @@ answer = input()
 if answer == "no":
     print("It might be time for a new one. Would you like to look at some new models?")
 YesNo = input()
-    if YesNo == "yes"
-    Models()
-    
-    
-if answer == "yes":
+if YesNo == "no":
+	Models()  
+else:
     print("That's too bad. We would love to help you.")
