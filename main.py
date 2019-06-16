@@ -30,5 +30,4 @@ if YesNo == "yes":
     
     
 if answer == "yes":
->>>>>>> a1535906531639b04d638d8c804e9fe88613ca5d
     print("That's too bad. We would love to help you.")
